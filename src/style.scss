@@ -1,0 +1,16 @@
+$bgcolor: #e0f8cf;
+$fontcolor: #33462a;
+
+html {
+  background: $bgcolor;
+}
+
+body,
+html {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: $fontcolor;
+}
