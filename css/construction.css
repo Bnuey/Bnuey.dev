@@ -8,15 +8,6 @@ html {
   place-items: center;
 }
 
-h1 {
-  color: #33462a;
-}
-
-#LilLeah {
-  height:64px;
-  width:64px;
-}
-
-button {
-  
+img {
+  border: 5px solid #d1e8c1;
 }
