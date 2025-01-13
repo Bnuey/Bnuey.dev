@@ -9,8 +9,6 @@ html {
 body {
   font-family: "Frisky Puppy", monospace;
   color: #33462a;
-}
-body {
   transform: scale(0.8);
   transform-origin: 50% 0;
   -ms-overflow-style: none;

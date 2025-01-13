@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0341e15-ff75-4099-80b4-21124ee20961" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/construction.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../files.html" beforeDir="false" afterPath="$PROJECT_DIR$/../files.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../footer.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../games.html" beforeDir="false" afterPath="$PROJECT_DIR$/../games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../header.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../less-watch-compiler.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/construction.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/main.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736794200646</updated>
-      <workItem from="1736794202724" duration="2445000" />
+      <workItem from="1736794202724" duration="3703000" />
     </task>
     <servers />
   </component>
