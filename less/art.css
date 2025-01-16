@@ -1,0 +1,34 @@
+.artgallery a {
+  text-decoration: none;
+}
+.row,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+  height: 300px;
+  margin: 5px;
+}
+.argallery a {
+  margin: 0px 5px;
+}
+.artgallery img {
+  height: 100%;
+}
+.row2 {
+  height: 386.5px;
+}
+.row3 {
+  height: 314px;
+}
+.row4 {
+  height: 322px;
+}
+.row5 {
+  height: 284px;
+}
+.row6 {
+  height: 412.5px;
+}
+/*# sourceMappingURL=art.css.map */

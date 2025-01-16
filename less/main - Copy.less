@@ -1,0 +1,251 @@
+@background-color: #e0f8cf;
+@accent-color: #33462a;
+@hover-color: #739E5E;
+@default-font: "Frisky Puppy", monospace;
+@border-radius: 20px;
+
+html {
+  background: @background-color;
+  color: @accent-color;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  font-family: @default-font;
+  color: @accent-color;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+p,
+h1,
+h2,
+h3 {
+  font-family: inherit;
+  color: inherit;
+  text-decoration-color: @accent-color;
+}
+
+a:hover {
+  color: @hover-color;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+/* NAVIGATION BAR */
+
+.topnav {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.topnav a {
+  color: @accent-color;
+  text-align: center;
+  padding: 14px 75px;
+  right: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Frisky Puppy", monospace;
+}
+.topnav a:hover {
+  color: @hover-color;
+}
+
+/* MISC. >*/
+
+hr {
+  color: @accent-color;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+/* GAME CONTAINERS >*/
+
+.container {
+  display: grid;
+  grid-template-rows: 70px auto auto;
+  gap: 10px;
+  border-radius: @border-radius;
+}
+
+.containerL:extend(.container) {
+  grid-template-columns: 650px auto;
+}
+
+.containerR:extend(.container) {
+  grid-template-columns: auto 650px;
+}
+
+/* GAME CONTAINER DIVS >*/
+
+.containerL > div,
+.containerR > div,
+.container > div {
+  font-size: 30px;
+  text-align: center;
+  border-radius: @border-radius;
+  background: #d1e8c1;
+}
+
+/* GAME SPECIFIC CONTAINERS */
+
+// Umbrella Cat
+.umbrellacat:extend(.containerR) {
+  color:white;
+}
+.umbrellacat > div {
+  font-size: 30px;
+  text-align: center;
+  border-radius: @border-radius;
+  background: black;
+}
+
+.umbrellacatdesc {
+  font-size: 20px;
+}
+
+// QuestionHeir
+.questionheir:extend(.containerL) {
+  color:white;
+}
+
+.questionheir > div {
+  font-size: 30px;
+  text-align: center;
+  border-radius: @border-radius;
+  background: #f45785;
+}
+
+// Roady Car
+.roadycar:extend(.containerR) {
+  color:white;
+  font-family: "Whitney Semibold", monospace;
+  font-weight: bolder;
+}
+
+.roadycar > div {
+  font-size: 30px;
+  text-align: center;
+  border-radius: @border-radius;
+  background: #00b8ff;
+}
+
+.roadycardesc {
+  font-size: 20px;
+}
+
+// Bobble Vs. The Game
+.bobblevsthegame:extend(.containerL) {
+  color:white;
+  font-family: "Whitney Semibold", monospace;
+  font-weight: bolder;
+}
+
+.bobblevsthegame > div {
+  font-size: 30px;
+  text-align: center;
+  border-radius: @border-radius;
+  background: #f6335c;
+}
+
+/* GAME CONTAINER INFORMATION */
+.gamedate,
+.gametitle {
+  margin: 0px;
+  padding: 10px;
+}
+
+.gameimage {
+  float: left;
+  padding:10px;
+  border-radius: 20px;
+  height: 500px;
+  width: 630px;
+  
+}
+
+.gamedeschr {
+  margin: 0px 10px;
+  color: inherit;
+}
+
+.buttontext {
+  margin: 0px;
+  color: #33462a;
+}
+
+.description {
+  padding: 5px 10px;
+}
+
+.playbuttonarea {
+  align-self: flex-end;
+}
+
+.playbutton {
+  border: @accent-color solid 5px;
+  border-radius: @border-radius;
+  margin: 10px;
+  height: 80px;
+  width: 200px;
+  font-family: inherit;
+  background: @background-color;
+}
+
+.playbutton button:hover {
+  background: @hover-color;
+}
+
+/* GAME CONTAINER SPECIFIC BOX CHANGES */
+
+.item4 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  border-radius: @border-radius;
+}
+
+.item5 {
+  grid-column: 1 / 3;
+}
+
+.item5 p {
+  margin:20px;
+}
+
+/* FOOTER */
+.sociallogo {
+  width: 64px;
+  height: 64px;
+  padding: 10px;
+}
+.link {
+  text-decoration: none;
+}
+
+.tiny5 {
+  font-family: Tiny5, monospace;
+  font-weight: bolder;
+}
