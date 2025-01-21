@@ -1,6 +1,7 @@
 @background-color: #e0f8cf;
 @accent-color: #33462a;
 @hover-color: #739E5E;
+@background-color2: #d1e8c1;
 @default-font: "Frisky Puppy", monospace;
 @border-radius: 10px;
 
@@ -49,6 +50,7 @@ h3 {
 .topnav {
   max-width: 1000px;
   margin: auto;
+  z-index: 1000;
 }
 
 .topnav a {
@@ -72,6 +74,43 @@ h3 {
   background: @background-color;
 }
 
+// About me
+
+.aboutsection {
+  width: 60%;
+  height: 400px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 300px auto;
+  gap: 10px;
+  margin: 20px auto;
+  background: @background-color2;
+  text-align: left;
+  border-radius: @border-radius;
+}
+
+.websitetitle {
+  margin: 30px auto 10px;
+  animation: rotate 2s infinite;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+}
+
+.aboutdesction {
+  margin: auto;
+  font-size: 30px;
+}
+
+.lilleah {
+  height: 300px;
+  float: left;
+  margin: 50px 15px;
+  animation: rotate 2s infinite;
+  animation-delay: -500ms;
+  animation-timing-function: ease-in-out;
+}
+
+
 /* MISC. >*/
 
 hr {
@@ -92,7 +131,39 @@ hr {
   width: 64px;
   height: 64px;
   padding: 10px;
+  animation: rotate 2s infinite;
+  animation-timing-function: ease-in-out;
 }
+
+#itch {
+  animation-delay: 0ms;
+}
+
+#bsky {
+  animation-delay: -500ms;
+}
+
+#instagram {
+  animation-delay: -1000ms;
+}
+
 .link {
   text-decoration: none;
+}
+
+s {
+  text-decoration-thickness: 4px;
+  color: #ff3e30;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(-2deg);}
+  50% {transform: rotate(2deg);}
+  100% {transform: rotate(-2deg);}
+}
+
+@keyframes smallrotate {
+  0% {transform: rotate(-1deg);}
+  50% {transform: rotate(1deg);}
+  100% {transform: rotate(-1deg);}
 }

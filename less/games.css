@@ -25,6 +25,8 @@
   border-radius: 10px;
   width: 630px;
   height: 500px;
+  animation: smallrotate 2s infinite;
+  animation-timing-function: ease-in-out;
 }
 .gametitle {
   text-align: left;
@@ -63,5 +65,8 @@
   border: 2px solid #33462a;
   border-radius: 10px;
   margin: 10px;
+  animation: smallrotate 2s infinite;
+  animation-delay: -500ms;
+  animation-timing-function: ease-in-out;
 }
 /*# sourceMappingURL=games.css.map */
