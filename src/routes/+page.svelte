@@ -1,4 +1,6 @@
 <script>
+    import { injectAnalytics } from '@vercel/analytics/sveltekit'
+
     import Games from "$lib/Games.svelte";
     import IndexAbout from "$lib/IndexAbout.svelte";
     import Footer from "$lib/footer.svelte";
