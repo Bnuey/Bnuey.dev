@@ -19,6 +19,12 @@
     } from "svelte-scrolling";
     import { cubicOut, elasticOut, sineOut } from "svelte/easing";
 
+    import { building } from "$app/environment"
+
+    if (!building) {
+        injectAnalytics();
+    }
+
     let revealArt = false;
     let revealGames = false;
     let revealAbout = false;
