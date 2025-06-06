@@ -15,9 +15,12 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <div class="titleArea">
-                <h2>{data.title}</h2>
-            </div>
+            <a href={data.href} class="links">
+                <div class="titleArea">
+                    <h2>{data.title}</h2>
+                </div>
+            </a>
+
             <div class="dateArea">
                 <h4>{data.date}</h4>
             </div>
@@ -72,5 +75,9 @@
     }
     hr {
         margin: 0px 20px;
+    }
+
+    .links {
+        text-decoration: none;
     }
 </style>
