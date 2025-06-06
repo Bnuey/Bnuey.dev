@@ -20,7 +20,6 @@
     import { cubicOut, elasticOut, sineOut } from "svelte/easing";
 
     import { building } from "$app/environment"
-    import ArtGallery from '$lib/ArtGallery.svelte';
 
     if (!building) {
         injectAnalytics();
@@ -72,20 +71,20 @@
 <IndexAbout showGames={ShowGames} showArt={ShowArt} showAbout={ShowAbout} />
 
 <section use:scrollRef={"Games"} />
-<section use:scrollRef={"Art"} />
-<section use:scrollRef={"About"} />
 {#if revealGames}
     <div in:fly={{ y: -200, duration: 500 }}>
         <Games />
     </div>
 {/if}
+<section use:scrollRef={"Art"} />
 {#if revealArt}
     <div in:fly={{ y: -200, duration: 500 }}>
-        <ArtGallery/>
+        <Construction />
     </div>
 {/if}
+<section use:scrollRef={"About"} />
 {#if revealAbout}
-    <div in:fly={{ y: 0, duration: 500 }}>
+    <div in:fly={{ y: -200, duration: 500 }}>
         <AboutMain />
     </div>
 {/if}
@@ -128,7 +127,7 @@
         scrollbar-width: none; /* Firefox */
     }
 
-    :global(a:hover, label > h3:hover, a > h2:hover) {
+    :global(a:hover, label > h3:hover) {
         color: #739e5e;
     }
 
