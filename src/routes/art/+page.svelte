@@ -8,6 +8,9 @@
 </script>
 
 <PageTitle title="Art"/>
+
+
+
 <Footer/>
 
 <style>

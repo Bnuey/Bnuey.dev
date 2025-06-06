@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="rightSide">
-        <h2>Hello!</h2>
+        <h2>Hello World!</h2>
         <p>
             I'm Ashley, a game developer, designer, and artist. I love creating
             things and want to give people cool experiences with my games. <br
@@ -40,8 +40,6 @@
                     button_text="Art"
                     OnClick={showArt}
                     sound = {revealSound}
-                    href={"https://www.instagram.com/bnueyy/"}
-                    target="_blank"
                 />
                 <SimpleButton
                     button_text="About"
