@@ -7,7 +7,6 @@
     import ClairePettingGame from "../ClairePettingGame.svelte";
     import PageTitle from "$lib/PageTitle.svelte";
     import Construction from "$lib/Construction.svelte";
-
     import { fly } from "svelte/transition";
     import AboutMain from "$lib/AboutMain.svelte";
     import {
