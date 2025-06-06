@@ -18,7 +18,7 @@
     import bellie from '$lib/Art/bellie.gif'
     import abstract from '$lib/Art/abstract.gif'
     import ninja1 from '$lib/Art/ninjacube1.gif'
-    import ninja2 from '$lib/art/ninjacube2.gif'
+    import ninja2 from '$lib/art/ninjacubenruben.gif'
     import necoarc from '$lib/Art/necoarc.jpg'
     import piano from '$lib/Art/Pianberrtro.png'
     import bobbleloading from '$lib/Art/bobbleloading.gif'
