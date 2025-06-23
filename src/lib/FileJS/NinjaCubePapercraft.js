@@ -5,7 +5,7 @@ export default {
         src: srcimg,
         alt: 'Ninja Cube Collectable'
     },
-    href: '$lib/files/Ninjaaa.pdf',
+    href: 'src/lib/files/Ninjaaa.pdf',
     title: 'Ninja Cube Papercraft.pdf',
     date: '2020',
     description: "For you :3<br>Ever wanted your own personal Ninja Cube? Well you're in luck because you can now print your very own Ninja Cube",
