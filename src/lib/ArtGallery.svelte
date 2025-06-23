@@ -22,7 +22,7 @@
     import necoarc from '$lib/Art/necoarc.jpg'
     import piano from '$lib/Art/Pianberrtro.png'
     import bobbleloading from '$lib/Art/phone.webm'
-    import bobbleB from '$lib/art/bobbleB.webm'
+    import bobbleB from '$lib/Art/bobbleB.webm'
     import unfinishedhouse from '$lib/Art/unfinishedhouse.jpg'
     import theplace from '$lib/Art/theplace.jpg'
     import text from '$lib/Art/Text.png'
