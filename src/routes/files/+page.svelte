@@ -12,15 +12,23 @@
     import MinimalArmor from "$lib/FileJS/MinimalArmor.js";
     import CelesteResourcepack from "$lib/FileJS/Celeste Resourcepack.js";
     import NinjaCubePapercraft from "$lib/FileJS/NinjaCubePapercraft.js";
+    import TileLockMod from "$lib/FileJS/LockTilesKeybind.js";
+    import LeahTheBunny from "$lib/FileJS/LeahForSM64";
 
 </script>
 
 <PageTitle title="Files & Stuff"/>
 <FileComponent
-    data={AmIAlirght}
+    data={TileLockMod}
+/>
+<FileComponent
+    data={LeahTheBunny}
 />
 <FileComponent
     data={CameraSpeedMod}
+/>
+<FileComponent
+    data={AmIAlirght}
 />
 <FileComponent
     data={MinimalArmor}
@@ -33,6 +41,8 @@
 />
 
 <Footer/>
+
+<a href="/testgames">Balls</a>
 
 <style>
 
