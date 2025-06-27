@@ -15,7 +15,7 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <a href={data.href} class="links">
+            <a href={data.href} class="links" target="_blank" download={data.title}>
                 <div class="titleArea">
                     <h2>{data.title}</h2>
                 </div>

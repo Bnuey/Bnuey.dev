@@ -21,10 +21,10 @@
             <br /><br />I've used and am familiar with, Godot, Unity, Blender,
             Premeire Pro, After Effects, C#, Java, GDScript, HTML CSS & Javascript,
             Svelte.
-            <br /><br />This website was coded by hand using Svelte, you can
+            <br />This website was coded by hand using Svelte, you can
             find source
             <a href="https://github.com/Bnuey/Bnuey.dev" target="_blank">here</a
-            > in case you wanna judge my code.
+            > in case you wanna judge my code.<br>(Web dev is not my specialty)
         </p>
     </div>
 </div>

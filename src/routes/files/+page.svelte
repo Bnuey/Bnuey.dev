@@ -10,6 +10,7 @@
     import AmIAlirght from "$lib/FileJS/AmIAlright.js"
     import CameraSpeedMod from "$lib/FileJS/CameraSpeedMod.js";
     import MinimalArmor from "$lib/FileJS/MinimalArmor.js";
+    import MinimalArmor2 from "$lib/FileJS/MinimalArmor 1.21.4.js";
     import CelesteResourcepack from "$lib/FileJS/Celeste Resourcepack.js";
     import NinjaCubePapercraft from "$lib/FileJS/NinjaCubePapercraft.js";
     import TileLockMod from "$lib/FileJS/LockTilesKeybind.js";
@@ -29,6 +30,9 @@
 />
 <FileComponent
     data={AmIAlirght}
+/>
+<FileComponent
+    data={MinimalArmor2}
 />
 <FileComponent
     data={MinimalArmor}
