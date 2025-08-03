@@ -8,8 +8,10 @@
     import Sacriforest from "$lib/Games/Sacriforest.js";
     import RoadyCar from "$lib/Games/RoadyCar.js";
     import BobbleVsTheGame from "$lib/Games/BobbleVsTheGame.js";
+    import UPCARD from "$lib/Games/UPCARD.js";
 </script>
 
+<GameContainer data={UPCARD} />
 <GameContainer data={NotQuiteRight} />
 <GameContainer data={UmbrellaCat} />
 <GameContainer data={QuestionHeir} />
