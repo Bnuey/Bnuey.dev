@@ -58,6 +58,7 @@
         revealGames = false;
         revealAbout = false;
     }
+
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -16,37 +16,44 @@
     import TileLockMod from "$lib/FileJS/LockTilesKeybind.js";
     import LeahTheBunny from "$lib/FileJS/LeahForSM64";
 
+
 </script>
 
 <PageTitle title="Files & Stuff"/>
 <FileComponent
     data={TileLockMod}
+    has_download={false}
 />
 <FileComponent
     data={LeahTheBunny}
+    has_download={true}
 />
 <FileComponent
     data={CameraSpeedMod}
+    has_download={false}
 />
 <FileComponent
     data={AmIAlirght}
+    has_download={false}
 />
 <FileComponent
     data={MinimalArmor2}
+    has_download={true}
 />
 <FileComponent
     data={MinimalArmor}
+    has_download={true}
 />
 <FileComponent
     data={CelesteResourcepack}
+    has_download={true}
 />
 <FileComponent
     data={NinjaCubePapercraft}
+    has_download={true}
 />
 
 <Footer/>
-
-<a href="/testgames">Balls</a>
 
 <style>
 

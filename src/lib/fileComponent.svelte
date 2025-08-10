@@ -1,6 +1,14 @@
 <script>
     // Props
-    let { data } = $props();
+    let { data, has_download} = $props();
+
+
+    function DownloadFile() {
+        if (has_download == true) return;
+        var link = document.getElementById("downlink")
+        link?.setAttribute("download", data.href);
+        link?.click()
+    }
 </script>
 
 <div class="center">
@@ -15,7 +23,7 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <a href={data.href} class="links" target="_blank" download>
+            <a href="#" class="links" target="_blank" onclick={DownloadFile} id="downlink">
                 <div class="titleArea">
                     <h2>{data.title}</h2>
                 </div>
