@@ -25,7 +25,7 @@
 
 <div class="center">
     <div class="leftSide">
-        <a href={data.href} target="_blank">
+        <a href="#" target="_blank" onclick={downloadData}>
             <img
                 src={data.img.src}
                 class="fileImage"
