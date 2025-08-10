@@ -1,12 +1,14 @@
 <script>
     // Props
-    let { data, has_download} = $props();
+    let { data, has_download, target = '_blank'} = $props();
 
 
      function downloadData()
      {
+        if (has_download == false) return
+
         var blob = new Blob([data.href]);
-        var name = data.title
+        var name = data.filename
 
         var a = document.createElement('a');
 
@@ -35,7 +37,7 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <a href="#" class="links" target="_blank" onclick={downloadData}>
+            <a href="#" class="links" target={target} onclick={downloadData}>
                 <div class="titleArea">
                     <h2>{data.title}</h2>
                 </div>

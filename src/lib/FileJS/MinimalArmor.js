@@ -7,6 +7,7 @@ export default {
     },
     href: 'src/lib/files/Minimal Armor.zip',
     title: 'Minimal Armor Resourcepack.zip',
+    filename: 'Minimal Armor Resourcepack.zip',
     date: '2021',
     description: "For Minecraft<br>Hate bulky stupid looking armor that makes it so you cant see anyones skin? This is for you...",
 }

@@ -27,6 +27,7 @@
 <FileComponent
     data={LeahTheBunny}
     has_download={true}
+    target=''
 />
 <FileComponent
     data={CameraSpeedMod}
@@ -39,18 +40,22 @@
 <FileComponent
     data={MinimalArmor2}
     has_download={true}
+    target=''
 />
 <FileComponent
     data={MinimalArmor}
     has_download={true}
+    target=''
 />
 <FileComponent
     data={CelesteResourcepack}
     has_download={true}
+    target=''
 />
 <FileComponent
     data={NinjaCubePapercraft}
     has_download={true}
+    target=''
 />
 
 <Footer/>
