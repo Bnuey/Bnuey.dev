@@ -3,12 +3,24 @@
     let { data, has_download} = $props();
 
 
-    function DownloadFile() {
-        if (has_download == true) return;
-        var link = document.getElementById("downlink")
-        link?.setAttribute("download", data.href);
-        link?.click()
+     function downloadData()
+     {
+        var blob = new Blob([data.href]);
+        var name = data.title
+
+        var a = document.createElement('a');
+
+        document.body.append(a);
+
+        a.download = name;
+
+        a.href = URL.createObjectURL(blob);
+
+        a.click();
+
+        a.remove();
     }
+
 </script>
 
 <div class="center">
@@ -23,7 +35,7 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <a href="#" class="links" target="_blank" onclick={DownloadFile} id="downlink" download="">
+            <a href="#" class="links" target="_blank" onclick={downloadData}>
                 <div class="titleArea">
                     <h2>{data.title}</h2>
                 </div>
