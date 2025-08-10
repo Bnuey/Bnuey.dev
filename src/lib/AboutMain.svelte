@@ -19,7 +19,7 @@
             cool experiences they wouldn't have otherwise. I'm currently a
             university student majoring in Game Development in Canada
             <br /><br />I've used and am familiar with, Godot, Unity, Blender,
-            Premeire Pro, After Effects, C#, Java, GDScript, HTML CSS & Javascript,
+            Premeire Pro, After Effects, C#, Java, GDScript, HTML, CSS, Javascript &
             Svelte.
             <br />This website was coded by hand using Svelte, you can
             find source

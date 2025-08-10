@@ -23,7 +23,7 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <a href="#" class="links" target="_blank" id="downlink" download={data.href}>
+            <a href="#" class="links" target="_blank" onclick={DownloadFile} id="downlink" download="">
                 <div class="titleArea">
                     <h2>{data.title}</h2>
                 </div>
