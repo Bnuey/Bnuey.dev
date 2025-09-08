@@ -39,7 +39,7 @@
         {#if visible}
             <div transition:fly={{ y: -50, duration: 200 }}>
                 <p>
-                    {anecdote}
+                    {@html anecdote}
                 </p>
             </div>
         {/if}
