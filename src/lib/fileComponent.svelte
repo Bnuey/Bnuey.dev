@@ -15,7 +15,7 @@
 
 <div class="center">
     <div class="leftSide">
-        <a href="#" target="_blank" onclick={DownloadZip(data.href, data.filename)}>
+        <a href="" target="_blank" onclick={DownloadZip(data.href, data.filename)}>
             <img
                 src={data.img.src}
                 class="fileImage"
@@ -25,7 +25,7 @@
     </div>
     <div class="rightSide">
         <div class="titleDateArea">
-            <a href="#" class="links" target={target} onclick={downloadData}>
+            <a href="" class="links" target={target} onclick={DownloadZip(data.href, data.filename)}>
                 <div class="titleArea">
                     <h2>{data.title}</h2>
                 </div>
