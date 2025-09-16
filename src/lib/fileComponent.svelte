@@ -3,31 +3,19 @@
     let { data, has_download, target = '_blank'} = $props();
 
 
-     function downloadData()
-     {
-        if (has_download == false) return
-
-        var blob = new Blob([data.href]);
-        var name = data.filename
-
-        var a = document.createElement('a');
-
-        document.body.append(a);
-
+    function DownloadZip(url = "", name = "") {
+        const a = document.createElement('a');
+        a.href = url;
         a.download = name;
-
-        a.href = URL.createObjectURL(blob);
-
+        document.body.appendChild(a);
         a.click();
-
-        a.remove();
+        document.body.removeChild(a);
     }
-
 </script>
 
 <div class="center">
     <div class="leftSide">
-        <a href="#" target="_blank" onclick={downloadData}>
+        <a href="#" target="_blank" onclick={DownloadZip(data.href, data.filename)}>
             <img
                 src={data.img.src}
                 class="fileImage"
