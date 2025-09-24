@@ -5,7 +5,7 @@ export default {
         src: srcimg,
         alt: 'Gif showing Leah the Bunny in SM64coopdx'
     },
-    href: '$app/server/char-select-leah.zip',
+    href: '$src/lib/files/char-select-leah.zip',
     title: 'Leah The Bunny',
     filename: 'char-select-leah.zip',
     date: '4/5/25',

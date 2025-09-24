@@ -5,7 +5,7 @@ export default {
         src: srcimg,
         alt: 'Minimal Armor Resourcepack icon'
     },
-    href: '$app/server/files/Minimal Armor 1.21.4.zip',
+    href: '$src/lib/files/Minimal Armor 1.21.4.zip',
     title: 'Minimal Armor 1.21.4.zip',
     filename: 'Minimal Armor 1.21.4.zip',
     date: '6/27/25',
