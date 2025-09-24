@@ -2,7 +2,6 @@
     // Props
     let { data, has_download, target = '_blank'} = $props();
 
-
     function DownloadZip(url = "", name = "") {
         const a = document.createElement('a');
         a.href = url;
