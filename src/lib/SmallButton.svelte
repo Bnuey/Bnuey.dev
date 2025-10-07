@@ -24,7 +24,7 @@
     function Clicked() {
         clicked = true;
 
-        PlaySound(sound, .5);
+        PlaySound(sound, .3);
     }
 
     function PlaySound(sound = "", volume = 1.0) {

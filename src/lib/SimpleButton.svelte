@@ -13,7 +13,7 @@
 
     function Hover() {
         hovered = true;
-        PlaySound(hoverSound, 0.2);
+        PlaySound(hoverSound, 0.1);
     }
 
     function UnHover() {

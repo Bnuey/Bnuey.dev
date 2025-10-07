@@ -3,7 +3,7 @@
     import SimpleButton from "$lib/SimpleButton.svelte";
     import SmallButton from "$lib/SmallButton.svelte";
 
-    let icarusLink = "https://linktr.ee/IcarusGameDev";
+    let patchworksLink = "https://discord.gg/XQZbFwgnzD";
 
     let { showGames, showArt, showAbout } = $props();
 
@@ -25,7 +25,7 @@
             things and want to give people cool experiences with my games. <br
             />
             I'm currently a programmer at
-            <a href={icarusLink} target="_blank">Icarus Digital</a> and work on solo
+            <a href={patchworksLink} target="_blank">PATCHWORKS</a> and work on solo
             projects in my free time
         </p>
         <br /><br /><br />
